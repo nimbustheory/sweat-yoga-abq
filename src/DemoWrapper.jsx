@@ -14,7 +14,7 @@ export default function DemoWrapper() {
       display: "flex",
       height: "100vh",
       overflow: "hidden",
-      background: isAdmin ? "#120e0a" : "#f4f1ec",
+      background: isAdmin ? "#f8f7f5" : "#f4f1ec",
       fontFamily: "'DM Sans', system-ui, sans-serif",
     }}>
 

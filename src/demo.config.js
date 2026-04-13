@@ -2,7 +2,7 @@ export const demoConfig = {
   name: "SWEAT Yoga",
   city: "Albuquerque, NM",
   subtitle: "Yoga Studio App",
-  logoMark: "SW",
+  logoMark: "S",
   accentColor: "#c4451a",
   accentColorLight: "#f5ddd0",
   displayFont: "Syne",
