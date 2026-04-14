@@ -191,7 +191,7 @@ function HomePage() {
     <div className="pb-6">
       <section style={{ background: `linear-gradient(165deg, ${T.bg} 0%, hsl(10,20%,12%) 100%)`, color: "#fff", padding: "32px 22px", minHeight: 220, position: "relative", overflow: "hidden" }}>
         <img src={STUDIO_IMAGES.heroHome} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.7)" }} onError={e => { e.target.style.display = "none"; }} />
-        <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.15) 100%)" }} />
+        <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.09) 100%)" }} />
         <div style={{ position: "relative" }}>
           <p style={{ color: T.accent, fontSize: 11, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", marginBottom: 8 }}>{formatDateLong(today)}</p>
           <h1 style={{ fontFamily: "'Syne', sans-serif", fontSize: 52, lineHeight: 0.92, letterSpacing: "-0.03em", margin: 0, fontWeight: 700 }}>
@@ -358,7 +358,7 @@ function PageHero({ image, title, subtitle }) {
   return (
     <div style={{ position: "relative", height: 220, overflow: "hidden", marginBottom: 16 }}>
       <img src={image} alt="" loading="lazy" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.7)" }} onError={e => { e.target.style.display = "none"; }} />
-      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.15) 100%)" }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.09) 100%)" }} />
       <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "16px 18px" }}>
         <h1 style={{ fontFamily: "'Syne', sans-serif", fontSize: 30, margin: 0, fontWeight: 700, color: "#fff" }}>{title}</h1>
         {subtitle && <p style={{ fontSize: 13, color: "rgba(255,255,255,.7)", margin: "4px 0 0" }}>{subtitle}</p>}
